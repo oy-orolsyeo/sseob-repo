@@ -83,13 +83,13 @@
         "vendors" : [
             {
                 "vendorName" : "엘오케이",
-                "phoneNumber" : "010-2586-3863",
+                "phoneNumber" : "010-****-****",
                 "email" : "orolsyeo@cj.net",
                 "address" : "한강대로 372 19층"
             },
             {
                 "vendorName" : "식물나라",
-                "phoneNumber" : "010-2586-3863",
+                "phoneNumber" : "010-****-****",
                 "email" : "plantnara@cj.net",
                 "address" : "을지로 3가"
             }
