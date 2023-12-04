@@ -133,19 +133,21 @@
 목록 데이터를 Generic하게 처리 가능한 클래스를 사용하여 응답 메세지 형태를 일관성있게 유지한다.
 
     ```java
+   
     @Getter
     @JsonInclude(JsonInclude.Include.NON_NULL)
     public class RestCollectionResponse<T> {
 
-    private final List<T> data;
-
-    private Long totalCount;
-
-    private Integer page;
-
-    private Integer pageSize;
-
-    private T summary;
+        private final List<T> data;
+    
+        private Long totalCount;
+    
+        private Integer page;
+    
+        private Integer pageSize;
+    
+        private T summary;
+   
     }
     ```
 
